@@ -447,6 +447,9 @@ footer p {
 
 
 @media (max-width: 415px) {
+	body {
+		width: 300px;
+	}
 	nav ul {
 		float: none;
 		width: 300px;
@@ -458,6 +461,7 @@ footer p {
 	}
 	header {
 		text-align: left;
+		width: 300px;
 	}
 	header > img {
 		margin-left: 75px;
@@ -480,6 +484,9 @@ footer p {
 	}
 	hr {
 		background: none;
+	}
+	.customers {
+		width: 300px;
 	}
 	.customers h2 {
 		font-size: 25px;
@@ -506,7 +513,7 @@ footer p {
 	.manifesto {
 		padding-left: 5px;
 		margin-left: 3px;
-		width: 400px;
+		width: 300px;
 	}
 	.manifesto h2 {
 		font-size: 25px;
@@ -518,8 +525,12 @@ footer p {
 		font-size: 12px;
 		margin-left: 41px;
 	}
+	.column {
+		width: 300px;
+	}
 	.column-end {
 		float: none;
+		width: 300px;
 	}
 
 	.rework h2 {
@@ -547,6 +558,9 @@ footer p {
 	}
 	.quotes p {
 		float: none;
+		width: 300px;
+	}
+	.offerings {
 		width: 300px;
 	}
 	.offerings h2 {
